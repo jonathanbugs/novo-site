@@ -176,6 +176,158 @@ textarea {
 
 
 /* FONTES DO PROJETO */
+@font-face {
+	font-family: 'loveloblack';
+	src: url('../fonts/lovelo_black-webfont.eot');
+	src: url('../fonts/lovelo_black-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lovelo_black-webfont.woff') format('woff'),
+		 url('../fonts/lovelo_black-webfont.ttf') format('truetype'),
+		 url('../fonts/lovelo_black-webfont.svg#loveloblack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'loveloline_bold';
+	src: url('../fonts/lovelo_line_bold-webfont.eot');
+	src: url('../fonts/lovelo_line_bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lovelo_line_bold-webfont.woff') format('woff'),
+		 url('../fonts/lovelo_line_bold-webfont.ttf') format('truetype'),
+		 url('../fonts/lovelo_line_bold-webfont.svg#loveloline_bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'loveloline_light';
+	src: url('../fonts/lovelo_line_light-webfont.eot');
+	src: url('../fonts/lovelo_line_light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lovelo_line_light-webfont.woff') format('woff'),
+		 url('../fonts/lovelo_line_light-webfont.ttf') format('truetype'),
+		 url('../fonts/lovelo_line_light-webfont.svg#loveloline_light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sansbold';
+	src: url('../fonts/opensans-bold-webfont.eot');
+	src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-bold-webfont.woff') format('woff'),
+		 url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sansbold_italic';
+	src: url('../fonts/opensans-bolditalic-webfont.eot');
+	src: url('../fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
+		 url('../fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sansextrabold';
+	src: url('../fonts/opensans-extrabold-webfont.eot');
+	src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+		 url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sansextrabold_italic';
+	src: url('../fonts/opensans-extrabolditalic-webfont.eot');
+	src: url('../fonts/opensans-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-extrabolditalic-webfont.woff') format('woff'),
+		 url('../fonts/opensans-extrabolditalic-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sansitalic';
+	src: url('../fonts/opensans-italic-webfont.eot');
+	src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-italic-webfont.woff') format('woff'),
+		 url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sanslight';
+	src: url('../fonts/opensans-light-webfont.eot');
+	src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-light-webfont.woff') format('woff'),
+		 url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sanslight_italic';
+	src: url('../fonts/opensans-lightitalic-webfont.eot');
+	src: url('../fonts/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-lightitalic-webfont.woff') format('woff'),
+		 url('../fonts/opensans-lightitalic-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('../fonts/opensans-regular-webfont.eot');
+	src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-regular-webfont.woff') format('woff'),
+		 url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sanssemibold';
+	src: url('../fonts/opensans-semibold-webfont.eot');
+	src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+		 url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sanssemibold_italic';
+	src: url('../fonts/opensans-semibolditalic-webfont.eot');
+	src: url('../fonts/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-semibolditalic-webfont.woff') format('woff'),
+		 url('../fonts/opensans-semibolditalic-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
 
 
 /**************
@@ -186,7 +338,6 @@ html {
 }
 
 body {
-	background: #273f4c;
 }
 
 section ul li {
@@ -195,29 +346,539 @@ section ul li {
 
 
 
+/**************
+	GERAL
+**************/
+.geralTransition {
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+#wrapper {
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	background: blue;
+}
+
+.secao {
+	padding: 175px 0;
+}
+
+.sessaoContent {
+	display: block;
+	margin: 0 20px;
+	text-align: center;
+}
+
+.sessaoTitulo {
+	font-family: 'loveloblack', arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 42px;
+	color: #303030;
+	display: block;
+	text-align: center;
+	line-height: 1.2em;
+	padding-bottom: 100px;
+}
+
+.sessaoTitulo span {
+	display: block;
+}
+
 
 /**************
 	TOPO
 **************/
 #topo {
 	position: relative;
+	border-top: 15px solid #d04343;
+	padding-top: 70px;
 }
 
-@media only screen and (max-width: 1024px) {
+#logo {
+	width: 106px;
+	height: 38px;
+	background: url('../img/logo.png') no-repeat;
+	float: left;
+	margin-left: 60px;
+}
+
+#menu {
+	float: right;
+	margin-right: 60px;
+}
+
+#menuUl {
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.menuLi {
+	float: left;
+	list-style: none;
+	margin-left: 125px;
+}
+
+.menuLiFirst {
+	margin-left: 0;
+}
+
+.menuLink {
+	font-family: 'loveloblack', arial, sans-serif;
+	color: #303030;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 1em;
+	display: block;
+	letter-spacing: 0.02em;
+	padding: 8px;
+	background: url('../img/links_menu.png') no-repeat;
+	background-size: 0% 100%;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+
+.menuLink:hover {
+	background-size: 100% 100%;
+}
+
+#menu .showMenu {
+	background: url('../img/bt_menu.jpg') no-repeat;
+	display: none;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: -5px;
 }
 
 
 
 
+/**************
+	PORTFOLIO
+**************/
+#portfolio {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.portfolioLi {
+	float: left;
+	margin: 0 4% 40px 0;
+	max-width: 530px;
+	width: 48%;
+}
+
+.portfolioLink {
+	display: block;
+}
+
+.portfolioLiLast {
+	margin: 0;
+}
+
+.portfolioImg {
+	width: 100%;
+	max-width: 530px;
+}
+
+
+
+/**************
+	QUEM SOMOS
+**************/
+#quemSomos {
+	background: #d04343;
+}
+
+#quemSomos .sessaoTitulo {
+	color: #FFF;
+}
+
+#etapasUl {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.etapasLi {
+	float: left;
+	margin-right: 70px;
+	width: 205px;
+	background: url('../img/sprite_etapas.png') no-repeat;
+	padding-top: 90px;
+}
+
+.etapasLiLast {
+	margin-right: 0;
+}
+
+
+.etapasLiPlanejamento {
+	background-position: center top;
+}
+
+.etapasLiCriacao {
+	background-position: center -222px;
+}
+
+.etapasLiDesenvolvimento {
+	background-position: center -431px;
+}
+
+
+.etapasTitulo {
+	font-family: 'loveloblack', arial, sans-serif;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 1em;
+	text-transform: uppercase;
+	display: block;
+	padding-bottom: 25px;
+}
+
+.etapaDescricao {
+	font-family: 'open_sansregular', arial, sans-serif;
+	color: #FFF;
+	font-size: 14px;
+	letter-spacing: -0.02em;
+}
+
+
+
+/**************
+	CONTATO
+**************/
+.containercontato {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+#formContato {
+	max-width: 405px;
+	min-width: 405px;
+	float: left;
+}
+
+#formContato .relative {
+	background: #FFF;
+	border: 2px solid #d04343;
+	margin-bottom: 25px;
+	padding: 15px;
+	position: relative;
+}
+
+#formContato .label,
+#formContato .input,
+#formContato .textarea {
+	font-family: 'open_sansregular', arial, sans-serif;
+	color: #000;
+	font-size: 14px;
+}
+
+#formContato .label {
+	position: absolute;
+	top: 1px;
+	left: 15px;
+	display: block;
+	line-height: 53px;
+	height: 53px;
+}
+
+#formContato .input {
+	border: none;
+	height: 23px;
+	line-height: 23px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#formContato .textarea {
+	line-height: 1.3em;
+	resize: none;
+}
+
+#formContato .textarea {
+	border: medium none;
+	height: 145px;
+	width: 100%;
+}
+
+textarea {
+	overflow: auto;
+}
+
+#btEnviar {
+	background: #d04343;
+	padding: 30px 80px;
+	text-align: center;
+	border: none;
+	font-family: 'loveloblack', arial, sans-serif;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 1em;
+	text-transform: uppercase;
+	cursor: pointer;
+	float: right;
+	outline: none;
+	border-radius: 0;
+}
+
+#btEnviar:hover {
+	background: #ae2e2e;
+}
+
+.contatoInfos {
+	float: left;
+	margin-left: 50px;
+	max-width: 405px;
+}
+
+.infosLi {
+	background: url('../img/sprite_contato.png') no-repeat;
+	min-height: 40px;
+	padding-left: 50px;
+	display: block;
+	line-height: 40px;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+.infosLi,
+.infosLi a {
+	font-family: 'open_sansregular', arial, sans-serif;
+	color: #000;
+	font-size: 14px;
+}
+
+.infosLi a:hover {
+	color: #d04343;
+}
+
+.infosLi span {
+	display: block;
+}
+
+.infosLiFone {
+	background-position: 0 0;
+}
+
+.infosLiEmail {
+	background-position: 0 -80px;
+}
+
+.infosLiEndereco {
+	background-position: 0 -160px;
+	line-height: 17px;
+	padding-top: 4px;
+}
+
+.infosLiEndereco .infosLink {
+	color: #d04343;
+	text-decoration: underline;
+	padding-top: 4px;
+	display: block;
+}
+
+.infosLiEndereco .infosLink:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1023px) {
+	/**************
+		TOPO
+	**************/
+	.menuLi {
+		margin-left: 75px;
+	}
+}
+
+
+@media only screen and (max-width: 850px) {
+	/**************
+		TOPO
+	**************/
+	.menuLi {
+		margin-left: 45px;
+	}
+
+	/**************
+		QUEM SOMOS
+	**************/
+	.etapasLi {
+		margin-right: 40px;
+	}
+
+	.etapasLiLast {
+		margin-right: 0;
+	}
+}
+
+
+@media only screen and (max-width: 750px) {
+	/**************
+		TOPO
+	**************/
+	#logo {
+		margin-left: 20px;
+	}
+
+	#menu {
+		margin-right: 20px;
+	}
+
+	#menu .showMenu {
+		display: block;
+	}
+
+	#menuUl {
+		width: 75%;
+		height: auto;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: #d04343;
+		-moz-transform: translate(100%, 0%);
+	}
+
+	
+
+	#wrapper.menuAberto {
+		-moz-transform: translate(-75%, 0%);
+	}
+
+	html.menuAberto,
+	body.menuAberto {
+		overflow: hidden;
+	}
+
+	/*.menuAberto .hoverMenu {
+		display: none;
+	}
+
+	#wrapper.menuAberto {
+	}*/
+
+	/*.fecharMenu.menuAberto {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 75%;
+		bottom: 0;
+		z-index: 10;
+	}*/
+
+
+	/**************
+		GERAL
+	**************/
+	.secao {
+		padding: 60px 0;
+	}
+
+	.sessaoTitulo {
+		font-size: 18px;
+		padding-bottom: 60px;
+	}
+
+
+	
+	/**************
+		PORTFOLIO
+	**************/
+	.portfolioLi {
+		float: none;
+		display: block;
+		margin: 0 auto 4%;
+		width: 100%;
+	}
+
+
+
+
+	/**************
+		QUEM SOMOS
+	**************/
+	.etapasLi {
+		float: none;
+		margin: 0 0 60px 0;
+	}
+
+	.etapasLiLast {
+		margin-bottom: 0;
+	}
+
+
+
+	/**************
+		CONTATO
+	**************/
+	#formContato {
+		min-width: 0;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#formContato .relative {
+		margin-bottom: 10px;
+	}
+
+	#btEnviar {
+		width: 100%;
+		float: none;
+		padding: 30px 0;
+
+	}
+
+	.contatoInfos {
+		float: none;
+		margin: 20px auto 0;
+	}
+
+	.infosLi {
+		margin-bottom: 20px;
+	}
+}
 
 
 
 /* para o display de alta resolução */
-@media only screen and (min--moz-device-pixel-ratio: 2), 
-only screen and (-o-min-device-pixel-ratio: 2/1), 
-only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
-	
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	#logo {
+		background-image: url('../img/logo_2x.png');
+		background-size: 106px 38px;
+	}
+
+	#menu .showMenu {
+		background-image: url('../img/bt_menu_2x.jpg');
+		background-size: 50px 50px;
+	}
+
+	.etapasLi {
+		background-image: url('../img/sprite_etapas_2x.png');
+		background-size: 62px 493px;
+	}
+
+	.infosLi {
+		background-image: url('../img/sprite_contato_2x.png');
+		background-size: 40px 200px;
+	}
 }
 
 
