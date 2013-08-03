@@ -28,136 +28,151 @@
 		<!--[if lt IE 7]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
-		<div id="wrapper">
-			<div class="fecharMenu"></div>
+		<div id="contentWrapper">
+			<div id="wrapper">
+				<header id="topo" class="clearfix">
+					<div class="container">
+						<h1 id="boxLogo" class="ir geralTransition">
+							<a id="logo" class="logo ir" href="#topo" title="Novo Site">Novo Site</a>
+						</h1>
+						<div id="menu" class="geralTransition">
 
-			<header id="topo" class="clearfix">
-				<div class="container">
-					<h1 id="logo" class="ir geralTransition">Novo Site</h1>
-					<div id="menu" class="geralTransition">
-						<a class="menuMobile showMenu ir" href="javascript:;">Menu</a>
-					</div>
-				</div>
-			</header>
+							<a href="javascript:;" class="btMenu showMenu ir">Menu</a>
 
-			<ul id="menuUl" class="geralTransition clearfix">
-				<!--li class="menuLi geralTransition menuLiFirst">
-					<a class="menuLink" href="javascript:;">Portfolio</a>
-				</li>
-				<li class="menuLi geralTransition">
-					<a class="menuLink" href="javascript:;">Quem Somos</a>
-				</li>
-				<li class="menuLi geralTransition">
-					<a class="menuLink" href="javascript:;">Contato</a>
-				</li-->
-			</ul>
-
-			
-			<section id="portfolio" class="secao">
-				<div class="sessaoContent">
-					<h2 class="sessaoTitulo">
-						<span>Criamos sites inspiradores,</span>
-						<span>focados nas necessidades de nossos clientes.</span>
-					</h2>
-					
-					<ul id="portfolioUl" class="clearfix">
-						<li class="portfolioLi geralTransition">
-							<a class="portfolioLink" href="javascript:;">
-								<img class="portfolioImg" src="img/1.jpg" data-src2x="img/1_2x.jpg" alt="" />
-							</a>
-						</li>
-						<li class="portfolioLi geralTransition portfolioLiLast">
-							<a class="portfolioLink" href="javascript:;">
-								<img class="portfolioImg" src="img/2.jpg" data-src2x="img/2_2x.jpg" alt="" />
-							</a>
-						</li>
-						<li class="portfolioLi geralTransition">
-							<a class="portfolioLink" href="javascript:;">
-								<img class="portfolioImg" src="img/3.jpg" data-src2x="img/3_2x.jpg" alt="" />
-							</a>
-						</li>
-						<li class="portfolioLi geralTransition portfolioLiLast">
-							<a class="portfolioLink" href="javascript:;">
-								<img class="portfolioImg" src="img/4.jpg" data-src2x="img/4_2x.jpg" alt="" />
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-
-			<section id="quemSomos" class="secao">
-				<div class="sessaoContent">
-					<h2 class="sessaoTitulo">
-						<span>Somos uma produtora web</span>
-						<span>Loren ipsun dolor sit amet.</span>
-					</h2>
-
-					<ul id="etapasUl" class="clearfix">
-						<li class="etapasLi geralTransition etapasLiPlanejamento">
-							<h3 class="etapasTitulo">Planejamento</h3>
-							<p class="etapaDescricao">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus tellus, luctus ac dui eget.
-							</p>
-						</li>
-						<li class="etapasLi geralTransition etapasLiCriacao">
-							<h3 class="etapasTitulo">Criação</h3>
-							<p class="etapaDescricao">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus tellus, luctus ac dui eget.
-							</p>
-						</li>
-						<li class="etapasLi geralTransition etapasLiLast etapasLiDesenvolvimento">
-							<h3 class="etapasTitulo">Desenvolvimento</h3>
-							<p class="etapaDescricao">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus tellus, luctus ac dui eget.
-							</p>
-						</li>
-					</ul>
-				</div>
-			</section>
-
-			<section id="contato" class="secao">
-				<div class="sessaoContent">
-					<h2 class="sessaoTitulo">
-						<span>Gostou do que viu?</span>
-						<span>Entre em contato com a gente.</span>
-					</h2>
-
-					<div class="containercontato clearfix">
-						<form action="javascript:;" method="post" id="formContato" class="geralTransition">
-							<div class="relative">
-								<label class="label" for="nome">Nome</label>
-								<input class="input" type="text" id="nome" name="nome" />
-							</div>
-							<div class="relative">
-								<label class="label" for="email">E-mail</label>
-								<input class="input" type="email" id="email" name="email" />
-							</div>
-							<div class="relative">
-								<label class="label" for="mensagem">Mensagem</label>
-								<textarea class="textarea" id="mensagem" name="mensagem"></textarea>
-							</div>
-							<input type="submit" id="btEnviar" class="geralTransition" value="Enviar" />
-						</form>
-						<div class="contatoInfos geralTransition">
-							<ul class="infosUl">
-								<li class="infosLi infosLiFone">
-									<a class="infosLink geralTransition" href="tel:5135723000">51 3572 3000</a>
-								</li>
-								<li class="infosLi infosLiEmail">
-									<a class="infosLink geralTransition" href="mailto:contato@reez.com.br">contato@reez.com.br</a>
-								</li>
-								<li class="infosLi infosLiEndereco">
-									<span>R. Domingos de Almeida, 338</span>
-									<span>Centro, Novo Hamburgo - RS</span>
-									<a class="infosLink geralTransition" href="" targe="_blank">(veja no google maps)</a>
-								</li>
-							</ul>
+							<nav id="nav" class="nav-container">
+								<ul class="nav navMenu">
+									<li class="menuLi geralTransition menuLiFirst">
+										<a class="menuLink" href="#portfolio">Portfolio</a>
+									</li>
+									<li class="menuLi geralTransition">
+										<a class="menuLink" href="#quemSomos">Quem Somos</a>
+									</li>
+									<li class="menuLi geralTransition">
+										<a class="menuLink" href="#contato">Contato</a>
+									</li>
+								</ul>
+							</nav>
 						</div>
 					</div>
-				</div>
-			</section>
-		</div>
+				</header>
+				
+				<section id="portfolio" class="secao">
+					<div class="sessaoContent">
+						<h2 class="sessaoTitulo">
+							<span>Criamos sites inspiradores,</span>
+							<span>focados nas necessidades de nossos clientes.</span>
+						</h2>
+						
+						<ul id="portfolioUl" class="clearfix">
+							<li class="portfolioLi geralTransition">
+								<a class="portfolioLink" href="javascript:;">
+									<img class="portfolioImg" src="img/1.jpg" data-src2x="img/1_2x.jpg" alt="" />
+									<span class="portfolioTitulo geralHovers">
+										<!--span class="portfolioTituloTxt">Novo Site Homlmer Automação</span-->
+									</span>
+								</a>
+							</li>
+							<li class="portfolioLi geralTransition portfolioLiLast">
+								<a class="portfolioLink" href="javascript:;">
+									<img class="portfolioImg" src="img/2.jpg" data-src2x="img/2_2x.jpg" alt="" />
+									<span class="portfolioTitulo geralHovers">
+										<!--span class="portfolioTituloTxt">Novo Site Empresa especializada em gestão ambiental</span-->
+									</span>
+								</a>
+							</li>
+							<li class="portfolioLi geralTransition">
+								<a class="portfolioLink" href="javascript:;">
+									<img class="portfolioImg" src="img/3.jpg" data-src2x="img/3_2x.jpg" alt="" />
+									<span class="portfolioTitulo geralHovers">
+										<!--span class="portfolioTituloTxt">Novo Site Homlmer Automação</span-->
+									</span>
+								</a>
+							</li>
+							<li class="portfolioLi geralTransition portfolioLiLast">
+								<a class="portfolioLink" href="javascript:;">
+									<img class="portfolioImg" src="img/4.jpg" data-src2x="img/4_2x.jpg" alt="" />
+									<span class="portfolioTitulo geralHovers">
+										<!--span class="portfolioTituloTxt">Novo Site Homlmer Automação</span-->
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
 
+				<section id="quemSomos" class="secao">
+					<div class="sessaoContent">
+						<h2 class="sessaoTitulo">
+							<span>Somos uma produtora web</span>
+							<span>Loren ipsun dolor sit amet.</span>
+						</h2>
+
+						<ul id="etapasUl" class="clearfix">
+							<li class="etapasLi geralTransition etapasLiPlanejamento">
+								<h3 class="etapasTitulo">Planejamento</h3>
+								<p class="etapaDescricao">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus tellus, luctus ac dui eget.
+								</p>
+							</li>
+							<li class="etapasLi geralTransition etapasLiCriacao">
+								<h3 class="etapasTitulo">Criação</h3>
+								<p class="etapaDescricao">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus tellus, luctus ac dui eget.
+								</p>
+							</li>
+							<li class="etapasLi geralTransition etapasLiLast etapasLiDesenvolvimento">
+								<h3 class="etapasTitulo">Desenvolvimento</h3>
+								<p class="etapaDescricao">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus tellus, luctus ac dui eget.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section id="contato" class="secao">
+					<div class="sessaoContent">
+						<h2 class="sessaoTitulo">
+							<span>Gostou do que viu?</span>
+							<span>Entre em contato com a gente.</span>
+						</h2>
+
+						<div class="containercontato clearfix">
+							<form action="javascript:;" method="post" id="formContato" class="geralTransition">
+								<div class="relative">
+									<label class="label" for="nome">Nome</label>
+									<input class="input" type="text" id="nome" name="nome" />
+								</div>
+								<div class="relative">
+									<label class="label" for="email">E-mail</label>
+									<input class="input" type="email" id="email" name="email" />
+								</div>
+								<div class="relative">
+									<label class="label" for="mensagem">Mensagem</label>
+									<textarea class="textarea" id="mensagem" name="mensagem"></textarea>
+								</div>
+								<input type="submit" id="btEnviar" class="geralTransition" value="Enviar" />
+							</form>
+							<div class="contatoInfos geralTransition">
+								<ul class="infosUl">
+									<li class="infosLi infosLiFone">
+										<a class="infosLink geralTransition" href="tel:5135723000">51 3572 3000</a>
+									</li>
+									<li class="infosLi infosLiEmail">
+										<a class="infosLink geralTransition" href="mailto:contato@reez.com.br">contato@reez.com.br</a>
+									</li>
+									<li class="infosLi infosLiEndereco">
+										<span>R. Domingos de Almeida, 338</span>
+										<span>Centro, Novo Hamburgo - RS</span>
+										<a class="infosLink geralTransition" href="" targe="_blank">(veja no google maps)</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
 
 		<!-- Scripts -->
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>

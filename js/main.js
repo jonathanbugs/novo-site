@@ -1,13 +1,51 @@
 $(document).ready(function(){
-	menuMobile();
+	scrollPage();
+	//titulosPortfolio();
+	abrirMenu();
 	//imgRetina();
 	placeHolder();
 });
 
 
-function menuMobile(){
-	$('.showMenu, .fecharMenu').on('click', function(){
-		$('html, body, #wrapper, #menuUl, #boxLogo .logo, .linkEn, .fecharMenu').toggleClass('menuAberto');
+/**************
+	SCROLL
+**************/
+function scrollPage(){
+	$("#boxLogo, .navMenu").localScroll({
+		duration: 900,
+		easing: 'easeInOutExpo'
+	});
+}
+
+
+/**************
+	MENU MOBILE
+**************/
+function abrirMenu(){
+	$(".btMenu").click(function(){
+		$().addClass('');
+
+		if($(this).hasClass('showMenu')){
+			$(this).removeClass('showMenu').addClass('fecharMenu');
+		} else {
+			$(this).removeClass('fecharMenu').addClass('showMenu');
+		}
+
+		$("html").toggleClass("menuAberto");
+	});
+}
+
+
+/**************
+	TITULOS PORTFOLIO
+**************/
+function titulosPortfolio(){
+	$('.portfolioLink').on('mouseover', function(){
+			var texto = $(this).find('.portfolioTituloTxt');
+			$('.portfolioTituloTxt').removeClass('animaTitulo');
+			texto.addClass('animaTitulo');
+		}).on('mouseout', function(){
+			texto.removeClass('animaTitulo');
 	});
 }
 
@@ -33,7 +71,6 @@ function imgRetina(){
 	}();
 	Retina.init();
 }
-
 
 
 /**************
