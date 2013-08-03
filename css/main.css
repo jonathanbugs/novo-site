@@ -540,10 +540,34 @@ section ul li {
 	font-size: 18px;
 	display: block;
 	line-height: 1.3em;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter: alpha(opacity=0);
+	display: none;
 }
+
+.portfolioTitulo .animaTitulo {
+	display: block;
+	-webkit-animation: showTitulo .5s 2;
+	-moz-animation:    showTitulo .5s 2;
+	-o-animation:      showTitulo .5s 2;
+	animation:         showTitulo .5s 2;
+}
+
+@-webkit-keyframes showTitulo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes showTitulo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes showTitulo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes showTitulo {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 
 /**************
