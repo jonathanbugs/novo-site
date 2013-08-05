@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	scrollPage();
-	//titulosPortfolio();
+	titulosPortfolio();
 	abrirMenu();
 	//imgRetina();
 	placeHolder();
@@ -40,12 +40,13 @@ function abrirMenu(){
 	TITULOS PORTFOLIO
 **************/
 function titulosPortfolio(){
-	$('.portfolioLink').on('mouseover', function(){
-			var texto = $(this).find('.portfolioTituloTxt');
-			$('.portfolioTituloTxt').removeClass('animaTitulo');
-			texto.addClass('animaTitulo');
-		}).on('mouseout', function(){
-			texto.removeClass('animaTitulo');
+	$(".portfolioLink").on('mouseenter', function() {
+		var texto = $(this).find('.portfolioTituloTxt');
+		texto.delay(210).animate({
+			opacity: 1
+		}, 200, 'linear');
+	}).on('mouseleave', function() {
+		$(this).find('.portfolioTituloTxt').fadeTo(10, 0)
 	});
 }
 
