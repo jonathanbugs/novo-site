@@ -539,10 +539,9 @@ section ul li {
 	font-family: 'loveloblack', arial, sans-serif;
 	color: #FFF;
 	font-size: 18px;
-	display: block;
+	display: none;
 	line-height: 1.3em;
 	position: relative;
-	opacity: 0;
 }
 
 

@@ -42,11 +42,9 @@ function abrirMenu(){
 function titulosPortfolio(){
 	$(".portfolioLink").on('mouseenter', function() {
 		var texto = $(this).find('.portfolioTituloTxt');
-		texto.delay(210).animate({
-			opacity: 1
-		}, 200, 'linear');
+		texto.delay(400).show('slow');
 	}).on('mouseleave', function() {
-		$(this).find('.portfolioTituloTxt').fadeTo(10, 0)
+		$(this).find('.portfolioTituloTxt').hide();
 	});
 }
 
